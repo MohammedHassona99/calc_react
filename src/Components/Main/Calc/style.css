@@ -1,7 +1,0 @@
-.output{
- display: flex;
- width: 150px;
- background-color: aqua;
- justify-content: space-between;
- margin: auto;
-}

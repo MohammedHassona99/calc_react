@@ -1,5 +1,13 @@
 import React from "react";
-import './style.css';
-export default function Header() {
-  return <header>Welcome to great app</header>;
+import "./style.css";
+class Header extends React.Component {
+  render() {
+    const { total } = this.props;
+    return (
+      <div>
+        <span>{total}</span>
+      </div>
+    );
+  }
 }
+export default Header;
